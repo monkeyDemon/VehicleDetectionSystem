@@ -1,0 +1,28 @@
+1.the Common parameters:
+DetectVideoPath:./data/test3.mp4
+Camera_Index:-1
+GPU_INDEX:0
+InterestedArea_X:100
+InterestedArea_Y:60
+InterestedArea_Width: 550
+InterestedArea_Height: 318
+MaxCarArea:0.8
+NMSthresh:0.05
+TolerateDistance:30
+2.the UI setting parameters:
+MainWindowWidth:640
+MainWindowHeight:480
+StartLocationX:320
+StartLocationY:240
+3.the KCF algorithm parameters:
+HOG:0
+FIXEDWINDOW:0
+MULTISCALE:1
+SILENT:1
+LAB:0
+4.the DeepLearning algorithm YOLO's parameters:
+Thresh:0.25
+Hier_thresh:0.5
+Data_cfg:./cfg/coco.data
+Cfg:./cfg/yolo.cfg
+weights:./data/yolo.weights
